@@ -22,7 +22,6 @@ public class Anvil : MonoBehaviour
         if (other.GetComponent<Hammer>() && isOnAnvil)
         {
 
-            Debug.Log("Hammer Hit Anvil Trigger");
             if (ingotGameObject.GetComponent<Temperature>())
             {
                 if (ingotGameObject.GetComponent<Temperature>().GetIsMaliable())
@@ -44,9 +43,7 @@ public class Anvil : MonoBehaviour
             {
                 isOnAnvil = true;
                 other.GetComponent<BladeMaker>().SetOnAnvil(isOnAnvil);
-                Debug.Log(other.GetComponent<BladeMaker>().GetOnAnvil());
                 ingotGameObject = other.gameObject;
-                Debug.Log(ingotGameObject);
             }
         }
 
@@ -58,9 +55,7 @@ public class Anvil : MonoBehaviour
         {
             isOnAnvil = false;
             other.GetComponent<BladeMaker>().SetOnAnvil(isOnAnvil);
-            Debug.Log(other.GetComponent<BladeMaker>().GetOnAnvil());
             ingotGameObject = null;
-            Debug.Log(ingotGameObject);
         }
     }
 
