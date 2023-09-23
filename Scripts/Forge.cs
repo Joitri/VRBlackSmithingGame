@@ -15,7 +15,6 @@ public class Forge : MonoBehaviour
         
         if (other.GetComponent<Temperature>())
         {
-            //Debug.Log("Staying inside forge");
             StartCoroutine(UpdateTemperature(other.GetComponent<Temperature>()));
         }
         
