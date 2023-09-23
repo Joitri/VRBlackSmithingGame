@@ -8,7 +8,7 @@ public class SelfDestruct : MonoBehaviour
 
     private void Awake()
     {
-        coroutine = KillYourself(2000f * Time.deltaTime);
+        coroutine = DestroyYourself(2000f * Time.deltaTime);
     }
 
     private void DestroyYourself()
