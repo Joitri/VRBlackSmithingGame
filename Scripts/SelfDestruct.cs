@@ -11,17 +11,17 @@ public class SelfDestruct : MonoBehaviour
         coroutine = KillYourself(2000f * Time.deltaTime);
     }
 
-    private void KillYourself()
+    private void DestroyYourself()
     {
         Destroy(gameObject);
     }
 
-    public void StartKillingYourself()
+    public void StartDestroyingYourself()
     {
         StartCoroutine(coroutine);
     }
 
-    private IEnumerator KillYourself(float time)
+    private IEnumerator DestroyYourself(float time)
     {
         yield return new WaitForSeconds(time);
         KillYourself();
