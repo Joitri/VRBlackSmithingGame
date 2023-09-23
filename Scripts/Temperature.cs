@@ -24,6 +24,7 @@ public class Temperature : MonoBehaviour
     {
         CheckTemp();
     }
+    
     public float GetTemperature()
     {
         return temperature;
@@ -46,7 +47,6 @@ public class Temperature : MonoBehaviour
 
     private void CheckTemp()
     {
-        // Debug.Log("Made It To Check Temp : " + temperature.ToString());
         if (temperature >= maliableTemp)
         {
             if (isOre)
