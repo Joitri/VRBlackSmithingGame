@@ -24,6 +24,6 @@ public class SelfDestruct : MonoBehaviour
     private IEnumerator DestroyYourself(float time)
     {
         yield return new WaitForSeconds(time);
-        KillYourself();
+        DestroyYourself();
     }
 }
