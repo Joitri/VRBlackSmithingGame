@@ -51,15 +51,12 @@ public class Temperature : MonoBehaviour
         {
             if (isOre)
             {
-                Debug.Log("isOre Passed");
                 GameObject newIngot = Instantiate(GetComponent<OreMorpher>().GetIngot(), transform.position, transform.rotation);
-                //newIngot.transform.position = transform.position;
                 Destroy(this.GetComponentInParent<SelfDestruct>().gameObject);
             }
 
             if (temperature >= maxTemp)
             {
-                Debug.Log("isOre Failed");
                 Destroy(this.GetComponentInParent<SelfDestruct>().gameObject);
             }
 
