@@ -15,15 +15,10 @@ public class BladeMaker : MonoBehaviour
     {
         if (other.GetComponent<DaggerHilt>())
         {
-            Debug.Log("I touched : " + other);
             BecomeWeapon(other.gameObject);
         }
     }
 
-    private void Update()
-    {
-        //Debug.Log(onAnvil);
-    }
     public void SetOnAnvil(bool b)
     {
         onAnvil = b;
@@ -41,9 +36,7 @@ public class BladeMaker : MonoBehaviour
 
     public void BecomeBlade()
     {
-        Debug.Log("onAnvil + Hammer Passed");
         GameObject newIngot = Instantiate(edgePrefabs[Random.Range(Mathf.Min(0, edgePrefabs.Count), Mathf.Max(0, edgePrefabs.Count))], transform.position, transform.rotation);
-        //newIngot.transform.position = transform.position;
         Destroy(this.gameObject);
     }
 
@@ -51,14 +44,11 @@ public class BladeMaker : MonoBehaviour
     {
         if (!isAttached)
         {
-            Debug.Log("Trying to become a child to : " + gameObject.transform.parent);
             if (!gameObject.GetComponent<DaggerHilt>().GetIsAttached())
             {
                 this.GetComponent<MeshRenderer>().gameObject.transform.SetParent(gameObject.GetComponentInChildren<MeshContainer>().transform, false);
-                //this.GetComponent<MeshRenderer>().gameObject.transform.position = gameObject.transform.position;
                 gameObject.GetComponent<DaggerHilt>().SetIsAttached(true);
                 isAttached = true;
-                Debug.Log("I Tried to become a child and : Succeeded");
 
             }
         }
