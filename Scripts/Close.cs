@@ -6,7 +6,6 @@ public class Close : MonoBehaviour
 {
     public void CloseGame()
     {
-        Debug.Log("Quitting.... Trying to.... no... ?  ...... SAO!?!?!?!?");
         Application.Quit();
     }
 }
