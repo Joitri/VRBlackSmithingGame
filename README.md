@@ -1,7 +1,7 @@
 <h1>VR Blacksmithing Game</h1>
 
 <h2>Description</h2>
-First game project of the second semester at Southeast Technical College. The player has is trapped inside a room with a furnace, anvil, hammer, and ore. On the far wall are shelves with hilts. The player is tasked with throwing the ore on the furnace to heat it up, then using the anvil and hammer to create ingot. Once the ingot is formed the player then has to heat up the ingot and hammer it into a blade. Once the player has enough blades made they must attach the blades to the hilts and place the blades on the shelves in order to spawn the master sword.
+First game project of the second semester at Southeast Technical College. The player has is trapped inside a room with a furnace, anvil, hammer, and ore. On the far wall are shelves with hilts. The player is tasked with throwing the ores on the furnace to heat them up to create ingots. Once ingots are formed the player then has to heat up the ingots and hammer them into blades. Once the player has enough blades made they must attach the blades to the hilts and place the blades on the shelves in order to spawn the void sword.
 <br />
 
 
@@ -9,6 +9,8 @@ First game project of the second semester at Southeast Technical College. The pl
 
 - <b>C#</b> 
 - <b>Unity</b>
+
+ ### [YouTube Demonstration](https://youtu.be/e03-tgL_N6Q)
 
 <h2>Power Point Given:</h2>
 
