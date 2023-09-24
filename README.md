@@ -10,7 +10,7 @@ First game project of the second semester at Southeast Technical College. The pl
 - <b>C#</b> 
 - <b>Unity</b>
 
- ### [YouTube Demonstration](https://youtu.be/e03-tgL_N6Q)
+ [YouTube Demonstration](https://youtu.be/e03-tgL_N6Q)
 
 <h2>Power Point Given:</h2>
 
