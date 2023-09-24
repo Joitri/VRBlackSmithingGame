@@ -1,4 +1,4 @@
-<img width="1497" alt="image" src="https://github.com/Joitri/VRBlackSmithingGame/assets/71701549/cb44ee02-d121-4a0f-97f0-c58e4e7df0a8"><h1>VR Blacksmithing Game</h1>
+<h1>VR Blacksmithing Game</h1>
 
 <h2>Description</h2>
 First game project of the second semester at Southeast Technical College. The player has is trapped inside a room with a furnace, anvil, hammer, and ore. On the far wall are shelves with hilts. The player is tasked with throwing the ore on the furnace to heat it up, then using the anvil and hammer to create ingot. Once the ingot is formed the player then has to heat up the ingot and hammer it into a blade. Once the player has enough blades made they must attach the blades to the hilts and place the blades on the shelves in order to spawn the master sword.
