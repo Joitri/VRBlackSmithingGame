@@ -34,7 +34,7 @@ Power Point Slide #4: <br/>
 <br />
 <br />
 Power Point Slide #5: <br/>
-<img src="blob:https://imgur.com/fb648aeb-20cd-4b2c-ba18-0961399a2378" height="80%" width="80%" alt="VR Blacksmithing Game"/>
+<img src="https://i.imgur.com/ydaUel3.png" height="80%" width="80%" alt="VR Blacksmithing Game"/>
 <br />
 <br />
 Power Point Slide #6: <br/>
